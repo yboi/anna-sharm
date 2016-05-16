@@ -1,0 +1,27 @@
+.preview, .screenshot {
+	cursor: pointer;
+}
+/* basic tooltip style */
+#preview {
+	background: url(../image/loading.gif) no-repeat 50% 50% scroll;
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari and Chrome */
+	border-radius: 10px; /* Opera 10.5+, future browsers */
+	padding: 8px;
+	display: none;
+	z-index: 1000;
+	text-align:center;
+}
+
+/* close button (span) */
+#preview .close {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	display: none;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: url(../image/close.gif) center center no-repeat;
+	width: 16px;
+	height: 16px;
+}

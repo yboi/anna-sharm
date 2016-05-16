@@ -1,0 +1,2 @@
+[13-May-2016 01:52:59 Europe/Moscow] PHP Warning:  require_once(/home/galpidsv/anna-sharm.com/system/startup.Äm¡) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/galpidsv/anna-sharm.com/index.php on line 15
+[13-May-2016 01:52:59 Europe/Moscow] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/galpidsv/anna-sharm.com/system/startup.Äm¡' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/galpidsv/anna-sharm.com/index.php on line 15
